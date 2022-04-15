@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1649861757219" clover="3.2.0">
+  <project timestamp="1649861757219" name="All files">
+    <metrics statements="19" coveredstatements="16" conditionals="12" coveredconditionals="12" methods="2" coveredmethods="1" elements="33" coveredelements="29" complexity="0" loc="19" ncloc="19" packages="1" files="1" classes="1"/>
+    <file name="taxCalc.js" path="C:\Users\ruair\Documents\bjss\Paired programming\taxCalc.js">
+      <metrics statements="19" coveredstatements="16" conditionals="12" coveredconditionals="12" methods="2" coveredmethods="1"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="15" count="1" type="stmt"/>
+      <line num="18" count="0" type="stmt"/>
+      <line num="19" count="0" type="stmt"/>
+      <line num="20" count="0" type="stmt"/>
+      <line num="25" count="7" type="stmt"/>
+      <line num="26" count="7" type="stmt"/>
+      <line num="28" count="7" type="cond" truecount="2" falsecount="0"/>
+      <line num="29" count="1" type="stmt"/>
+      <line num="35" count="6" type="cond" truecount="2" falsecount="0"/>
+      <line num="36" count="1" type="stmt"/>
+      <line num="41" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="42" count="1" type="stmt"/>
+      <line num="45" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="46" count="1" type="stmt"/>
+      <line num="47" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="48" count="1" type="stmt"/>
+      <line num="51" count="7" type="cond" truecount="2" falsecount="0"/>
+      <line num="54" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
