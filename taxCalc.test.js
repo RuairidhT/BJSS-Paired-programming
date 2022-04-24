@@ -5,20 +5,20 @@ test("Calculates the amount of LBTT payable when buying a residential property l
 });
 
 test("Calculates the amount of LBTT payable when buying a residential property between £145,001 - £250,000", () => {
-    expect(calculateTax(146000)).toBe(19.98);
+    expect(calculateTax(146000)).toBe(20);
 });
 
 test("Calculates the amount of LBTT payable when buying a residential property between £250,001 - £325,000", () => {
-    expect(calculateTax(251000)).toBe(2149.93);
+    expect(calculateTax(251000)).toBe(2150);
 });
 
 test("Calculates the amount of LBTT payable when buying a residential property between £325,001 - £750,000 ", () => {
-    expect(calculateTax(500000)).toBe(23349.83);
+    expect(calculateTax(500000)).toBe(23350);
 
 });
 
 test("Calculates the amount of LBTT payable when buying a residential property over £750,000", () => {
-    expect(calculateTax(1000000)).toBe(78349.83);
+    expect(calculateTax(1000000)).toBe(78350);
 });
 
 test("Catches errors where user enters number less than 0", () => {

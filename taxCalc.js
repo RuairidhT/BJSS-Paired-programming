@@ -44,7 +44,7 @@ function calculateTax(propertyPrice) {
     tax = 0;
   }
 
-  return tax == null ? -1 : parseFloat(tax.toFixed(2));
+  return tax == null ? -1 : parseFloat(tax.toFixed(0));
 }
 
 module.exports = calculateTax;
